@@ -3,6 +3,6 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install --omit=dev
 COPY . .
-ENV PORT=4000
-EXPOSE 4000
+ENV PORT=9090
+EXPOSE 9090
 CMD ["node", "server.js"]

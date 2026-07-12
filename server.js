@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 
-const PORT = Number(process.env.PORT) || 4000;
+const PORT = Number(process.env.PORT) || 9090;
 
 app.get('/health', (_req, res) => res.json({ ok: true, service: 'orbit-agent' }));
 

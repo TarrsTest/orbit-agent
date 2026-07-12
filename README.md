@@ -7,4 +7,4 @@ Internal service for the **orbit** demo project. NOT public — reached only by
 - `GET /health` — liveness.
 - `POST /run` — `{ "input": "..." }` → `{ "result": "processed: ..." }`.
 
-Listens on `PORT` (default 4000).
+Listens on `PORT` (default 9090).
